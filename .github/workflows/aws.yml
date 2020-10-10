@@ -37,7 +37,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
-    - name: Cerify awscli
+    - name: Verify awscli
       run: aws --version
     - name: configure awscli
       uses: aws-actions/configure-aws-credentials@v1
